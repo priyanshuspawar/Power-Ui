@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@power-ui/core": ["packages/core/src"],
+      "@power-ui/components": ["packages/components/src"],
+      "@power-ui/hooks": ["packages/hooks/src"]
+    }
+  }
+}

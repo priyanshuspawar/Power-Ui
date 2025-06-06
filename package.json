@@ -1,0 +1,38 @@
+{
+  "name": "Power-Ui",
+  "version": "0.1.0",
+  "description": "",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "storybook": "turbo run storybook",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build && changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.28.0",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.5.4",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.8",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.2"
+  }
+}
